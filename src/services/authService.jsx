@@ -19,7 +19,7 @@ const authService = {
     try {
       const response = await httpClient.post('/auth/definir-mot-de-passe', { 
         token, 
-        mot_de_passe: newPassword
+        motDePasse: newPassword
       });
       return response;
     } catch (error) {
