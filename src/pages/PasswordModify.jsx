@@ -61,7 +61,7 @@ const PasswordDefine = () => {
       setSucces('Mot de passe défini avec succès. Redirection en cours...');
       
       setTimeout(() => {
-  window.location.replace('http://localhost:5173/');
+  window.location.replace('https://frontend-gestion-budget-esp.onrender.com/');
 }, 2000);
 
     } catch (error) {
